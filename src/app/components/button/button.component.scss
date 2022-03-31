@@ -1,0 +1,20 @@
+.button-layout {
+    background-color: var(--white);
+    padding: 18px 46px;
+    margin-left: 15px;
+    color: var(--blue);
+    border: 1px solid;
+    border-radius: 8px;
+    border-bottom-width: 4px;
+    border-color: var(--blue);
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    &:hover {
+        background-color: var(--pink);
+        border-bottom-width: 4px;
+        border-color: var(--pink);
+        border-bottom-color: var(--blue);
+        cursor: pointer;
+    } 
+}

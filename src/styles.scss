@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+	--pink: #F0CAFB;
+	--blue: #304B80;
+    --gray: #B7B6BF;
+    --gray-light: #b8b8b9;
+    --white: #FFFFFF;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, a, img, ol, ul, li,
+fieldset, form, label,
+figure, footer, header, 
+menu, nav, section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    background-color: var(--white);
+}

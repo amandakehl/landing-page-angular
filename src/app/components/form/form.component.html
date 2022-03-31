@@ -1,16 +1,17 @@
-<main class="principal">
+<div class="principal">
     <section class="section">
         <div class="spans">
             <span class="span-questions">Questions?</span>
             <span class="span-contact">Contact us <span role="img" aria-label="smile">:)</span></span>
         </div>
-        <form class="form">
+        <form class="form" [formGroup]="formulario" (ngSubmit)="onSubmit()">
             <fieldset>
-                <input type="text" placeholder="Name" name="nome" class="text" required>
-                <input type="email" placeholder="Email" name="email" class="text" required>
-                <input type="text" placeholder="Subject" name="subject" class="subject" required>
-                <input type="text" placeholder="Message" name="message" class="message" required>
-                <button type="submit" class="send-button">Send</button>
+                <input type="text" placeholder="Name" formControlName="name" class="text" required>
+                <input type="email" placeholder="Email" formControlName="email" class="text" required>
+                <input type="text" placeholder="Subject" formControlName="subject" class="subject" required>
+                <input type="text" placeholder="Message" formControlName="message" class="message" required>
+                <button class="button-layout" type="submit" (ngSubmit)="onSubmit()">Send</button>
             </fieldset>
         </form>
     </section>
+</div>

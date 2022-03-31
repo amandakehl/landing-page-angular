@@ -8,7 +8,7 @@
 
 .logo {
     margin-top: 0;
-    color: var(--pink); 
+    color: var(--pink);
     font-family: sans-serif;
     font-size: 2em;
     font-weight: 800;
@@ -17,7 +17,7 @@
 .list-header {
     list-style: none;
     display: inline;
-} 
+}
 
 .list-header li {
     display: inline-block;
@@ -43,9 +43,61 @@
 }
 
 .hamburger-button {
-    border: none;
-    background-color: #FFF;
-    display: flex;
-    margin-right: 0;
-    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width: 1124px) {
+    .principal {
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .hamburger-button {
+        border: none;
+        background-color: #FFF;
+        display: flex;
+        margin-right: 0;
+        cursor: pointer;
+    }
+
+    .list-header {
+        position: absolute;
+        top: 80px;
+        right: 35%;
+        width: 120px;
+        height: 200px;
+        list-style: none;
+        display: inline;
+        background-color: var(--white);
+        border-radius: 8px;
+        border: 1px solid var(--gray-light);
+        margin: 10px;
+        z-index: 1;
+    }
+
+    .list-header a {
+        margin: 8px;
+        display: inline-block;
+        align-items: flex-start;
+    }
+
+    .login-button {
+        margin: 20px;
+    }
+
+    .text {
+        padding: 2% 50% 2% 5%;
+    }
+
+    .subject {
+        padding: 2% 50% 2% 5%;
+    }
+
+    .message {
+        padding: 2% 50% 20% 5%;
+    }
+
+    .send-button {
+        margin-bottom: 40px;
+    }
 }

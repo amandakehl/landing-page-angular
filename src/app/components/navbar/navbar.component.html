@@ -3,10 +3,11 @@
         <p>Logotype</p>
     </div>
     <button class="hamburger-button">
-        <img id="hamburger" alt="menu" src="https://img.icons8.com/android/24/000000/menu.png" />
+        <img id="hamburger" alt="menu" src="https://img.icons8.com/android/24/000000/menu.png"
+            (click)="toggle=!toggle" />
     </button>
     <nav class="navegation">
-        <ul class="list-header">
+        <ul class="list-header" *ngIf="toggle && window < 1080 ? false : true">
             <li><a href="https://www.google.com.br/">Home</a></li>
             <li><a href="https://www.google.com.br/">Products</a></li>
             <li><a href="https://www.google.com.br/">Download</a></li>

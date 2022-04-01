@@ -6,21 +6,18 @@ import { Component, OnInit, HostListener } from '@angular/core';
   templateUrl: './navbar.component.html',
   styleUrls: ['./navbar.component.scss']
 })
+
 export class NavbarComponent implements OnInit {
-  public show: boolean = false;
+  public window = innerWidth;
+  public toggle: boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  // @HostListener('window:resize', ['$event'])
-  // onResize(event: any) {
-  //   if (event.innerWidth() < 1080) {
-
-  //     console.log(event.toggle())
-  //   } else {
-  //     console.log(event.target.innerWidth);
-  //   }
-  // }
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.window = window.innerWidth
+  }
 }

@@ -6,8 +6,10 @@
         </div>
         <form class="form" [formGroup]="formulario">
             <fieldset>
-                <input type="text" placeholder="Name" formControlName="name" class="text">
-                <input type="email" placeholder="Email" formControlName="email" class="text">
+                <div class="input-first-line">
+                    <input type="text" placeholder="Name" formControlName="name" class="text">
+                    <input type="email" placeholder="Email" formControlName="email" class="text">
+                </div>
                 <input type="text" placeholder="Subject" formControlName="subject" class="subject">
                 <input type="text" placeholder="Message" formControlName="message" class="message">
                 <button class="button-layout" type="submit" (click)="onSubmit(); validator()"

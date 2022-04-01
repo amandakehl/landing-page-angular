@@ -48,16 +48,20 @@ input {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
+.input-first-line {
+    display: flex;
+}
+
 .text {
-    padding: 2% 5.5% 2% 2%;
+    padding: 2% 1% 2% 2%;
 }
 
 .subject {
-    padding: 2% 50% 2% 2%;
+    padding: 2% 54% 2% 2%;
 }
 
 .message {
-    padding: 2% 50% 20% 2%;
+    padding: 2% 54% 20% 2%;
 }
 
 ::placeholder {
@@ -92,5 +96,54 @@ input {
         border-color: #CCC;
         background-color: #FFF;
         cursor: auto;
+    }
+}
+
+@media screen and (max-width: 1124px) {
+    .principal {
+        margin-left: 10px;
+    }
+
+    .hamburger-button {
+        border: none;
+        background-color: #FFF;
+        display: flex;
+        margin-right: 0;
+        cursor: pointer;
+    }
+
+    .login-button {
+        margin: 20px;
+    }
+
+    .input-first-line {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text {
+        padding: 2% 50% 2% 5% !important;
+    }
+
+    .subject {
+        padding: 2% 50% 2% 5%;
+    }
+
+    .message {
+        padding: 2% 50% 20% 5%;
+    }
+
+    .button-layout {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .input-first-line {
+        display: inline;
+    }
+
+    .text {
+        padding: 2% 50% 2% 5%;
     }
 }

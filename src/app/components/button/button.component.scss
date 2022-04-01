@@ -10,11 +10,19 @@
     font-family: sans-serif;
     font-size: 1em;
     font-weight: 600;
+
     &:hover {
         background-color: var(--pink);
         border-bottom-width: 4px;
         border-color: var(--pink);
         border-bottom-color: var(--blue);
         cursor: pointer;
-    } 
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .button-layout {
+        padding: 15px 25px;
+        margin: 15px;
+    }
 }

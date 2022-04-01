@@ -46,7 +46,12 @@
     display: none;
 }
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 960px) {
+    .logo {
+        font-size: 24px;
+        margin-left: 15px;
+    }
+
     .principal {
         align-items: flex-end;
         justify-content: space-between;
@@ -56,7 +61,7 @@
         border: none;
         background-color: #FFF;
         display: flex;
-        margin-right: 0;
+        margin-left: 5px;
         cursor: pointer;
     }
 
@@ -82,22 +87,7 @@
     }
 
     .login-button {
-        margin: 20px;
-    }
-
-    .text {
-        padding: 2% 50% 2% 5%;
-    }
-
-    .subject {
-        padding: 2% 50% 2% 5%;
-    }
-
-    .message {
-        padding: 2% 50% 20% 5%;
-    }
-
-    .send-button {
-        margin-bottom: 40px;
+        padding: 0;
+        margin: 15px;
     }
 }

@@ -1,27 +1,51 @@
-# LandingPageAngular
+# Angular - Landing Page
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+## **Sobre o projeto**
 
-## Development server
+Projeto desenvolvido utilizando o framework Angular, o intuito é colocar em prática os conhecimentos adquiridos até o momento de sua realização. 🥰
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<br />
 
-## Code scaffolding
+## **Tabela de conteúdo**
+<!--ts-->
+   * [Sobre o projeto](#sobre-o-projeto)
+   * [Como baixar o projeto](#como-baixar-o-projeto)
+   * [Autora](#autora)
+<!--te-->
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<br />
 
-## Build
+## **Como baixar o projeto**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+    # Para clonar o repositório 
+    $ git clone https://github.com/amandakehl/landing-page-angular.git
 
-## Running unit tests
+    # Entrar no diretório 
+    $ cd landing-page-angular
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    # Instalar as dependências 
+    $ npm install 
 
-## Running end-to-end tests
+    # Iniciar o projeto 
+    $ ng serve
+        Navegue em 'http://localhost:4200/'
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    # Para rodar a API
+    $ json-server --watch db.json 
+        Navegue em 'http://localhost:3000/contact-us'
+```
 
-## Further help
+<br />
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## **Autora**
+
+<a href="https://github.com/akfarias">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/73315527?v=4" width="100px;" alt=""/>
+ <br />
+</a>
+
+Feito com ❤️ por Amanda Kehl de Farias!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Amanda-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/akfarias/)](https://www.linkedin.com/in/akfarias/) 
+[![Gmail Badge](https://img.shields.io/badge/-amandakehldefarias@hotmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:amandakehldefarias@gmail.com)](mailto:amandakehldefarias@hotmail.com)

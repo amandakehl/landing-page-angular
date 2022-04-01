@@ -86,4 +86,11 @@ input {
         border-bottom-color: var(--blue);
         cursor: pointer;
     }
+
+    &:disabled {
+        color: #CCC;
+        border-color: #CCC;
+        background-color: #FFF;
+        cursor: auto;
+    }
 }

@@ -1,5 +1,5 @@
 import { NONE_TYPE } from '@angular/compiler';
-import { Component, OnInit, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener, Input } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -9,7 +9,9 @@ import { Component, OnInit, HostListener } from '@angular/core';
 
 export class NavbarComponent implements OnInit {
   public window = innerWidth;
-  public toggle: boolean = false;
+  public toggle: boolean = true;
+
+  @Input() labelButton?: string;
 
   constructor() { }
 

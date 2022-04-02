@@ -1,6 +1,6 @@
 import { FormService } from './../../services/form.service';
 import { FormModel } from './form.model';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ReactiveFormsModule, Validators } from '@angular/forms';
 import { FormGroup, FormControl, FormBuilder } from '@angular/forms';
 import { Http } from '@angular/http';
@@ -13,6 +13,8 @@ import { Http } from '@angular/http';
 export class FormComponent implements OnInit {
   formulario!: FormGroup;
   info: FormModel = new FormModel();
+
+  @Input() labelSend?: string = 'dsdsd';
 
   constructor(
     private formBuilder: FormBuilder,
@@ -34,7 +36,6 @@ export class FormComponent implements OnInit {
       subject: [null, Validators.required],
       message: [null, [Validators.required, Validators.maxLength(100)]]
     })
-    console.log(this.formulario.value)
   }
 
   onSubmit() {
@@ -43,7 +44,7 @@ export class FormComponent implements OnInit {
     }, err => {
       console.log('Erro ao salvar', err)
     });
-    //this.reset()
+    this.formulario.reset()
   }
 
   validator() {

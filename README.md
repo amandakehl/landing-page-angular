@@ -40,12 +40,11 @@ Projeto desenvolvido utilizando o framework Angular, o intuito é colocar em pr�
 
 ## **Autora**
 
-<a href="https://github.com/akfarias">
+<a href="https://github.com/amandakehl">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/73315527?v=4" width="100px;" alt=""/>
- <br />
 </a>
 
-Feito com ❤️ por Amanda Kehl de Farias!
+Feito com 💙 por Amanda Kehl de Farias!
 
-[![Linkedin Badge](https://img.shields.io/badge/-Amanda-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/akfarias/)](https://www.linkedin.com/in/akfarias/) 
-[![Gmail Badge](https://img.shields.io/badge/-amandakehldefarias@hotmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:amandakehldefarias@gmail.com)](mailto:amandakehldefarias@hotmail.com)
+  [<img src="https://img.shields.io/badge/Gmail-45BF86?style=for-the-badge&logo=gmail&logoColor=white">](mailto:amandakehldefarias@gmail.com) 
+  [<img src="https://img.shields.io/badge/LinkedIn-45BF86?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/amandakehl/) 
